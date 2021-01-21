@@ -49,7 +49,8 @@
 @media(max-width: 425px){
   .wrapper{
     display: grid;
-    grid-template: minmax(auto, 200px) minmax(auto,100px) 1fr minmax(auto,200px) / 1fr;
+    grid-template: minmax(auto, 200px) minmax(auto,100px) 1fr minmax(auto,200px) / auto;
+
   }
   .main{
     row-gap: 50px;
