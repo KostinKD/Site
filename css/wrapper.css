@@ -2,11 +2,21 @@
   min-width: 100%;
   min-height: 100%;
   display: grid;
-  grid-template: minmax(100px, auto) minmax(100px, auto) 1fr minmax(auto, 70px)/50px 1fr 50px;
+  grid-template: minmax(100px, auto) minmax(100px, auto) 1fr minmax(auto, auto)/50px 1fr 50px;
+  position: absolute;
   background: repeating-linear-gradient(45deg, #ffb6b9, #fae3d9, #bbded6, #8ac6d1);
   background-size: 200% 200%;
   animation: gradient-move 3s ease infinite;
 }
+
+@media(min-width: 996px){
+  .wrapper{
+    display: grid;
+  grid-template: minmax(100px, auto) minmax(100px, auto) 1fr minmax(auto, auto)/50px 1fr 50px;
+  }
+}
+
+@media(max-width:)
 
 @keyframes gradient-move {
   0% {
