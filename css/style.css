@@ -305,7 +305,7 @@ html, body {
 
 .menu-item-link:hover + .menu-item-img {
   opacity: 1;
-  transform: translate3d(calc(-100% - 6vw), -30%, 0) translate3d(0, 0, 1, 4deg);
+  transform: translate3d(calc(-100% - 6vw), -30%, 0) rotate3d(0, 0, 1, 4deg);
   transition: all 0.4s;
 }
 
