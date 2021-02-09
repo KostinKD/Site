@@ -1,0 +1,1 @@
+paceOptions={ajax:!0,document:!0,eventLag:!1},Pace.on("done",(function(){$(".p").delay(500).animate({top:"300",opacity:"0"},1e3,$.bez([.19,1,.22,1])),$(".pace").delay(500).animate({opacity:"0"},1e3,$.bez([.19,1,.22,1])),$(".preloader").delay(1500).animate({top:"-1000"},1e3,$.bez([.19,1,.22,1])),TweenMax.from(".wrapper",2,{delay:1,y:10,opacity:0,ease:Expo.easeInOut})}));
